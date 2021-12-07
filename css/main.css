@@ -1,3 +1,4 @@
+@import url('fonts.css');
 *{
     padding: 0;
     margin: 0;
@@ -237,4 +238,353 @@
     width: 322px;
     height: 322px;
     background: #ffffff;
+}
+.payment_text h1{
+    position: absolute;
+    width: 410px;
+    height: 171px;
+    left: 767px;
+    top: 175px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 57px;
+    color: #000000;
+}
+.payment_text a{
+    position: absolute;
+    width: 225px;
+    height: 32px;
+    left: 767px;
+    top: 358px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    /* identical to box height */
+    color: #0066FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tracking{
+    min-height: 448px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1095px;
+}
+.tracking_text{
+    width: 577px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tracking_text_header{
+    width: 577px;
+    height: 57px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 57px;
+    color: #000000;
+}
+.tracking_text_collected{
+    display: flex;
+    flex-direction: column;
+}
+.tracking_text_target h1{
+    width: 152px;
+    height: 57px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 47px;
+    line-height: 57px;
+    color: #000000;
+}
+.tracking_text p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 35px;
+    color: #666666;
+}
+.tracking_text_collected h1{
+    width: 136px;
+    height: 57px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 47px;
+    line-height: 57px;
+    color: #666666;
+}
+.numbers{
+    display: flex;
+    width: 468px;
+    justify-content: space-between;
+}
+.seryoga{
+    width: 470px;
+    height: 448px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.seryoga img{
+    width: 373px;
+    height: 216px;
+    border-radius: 13px;
+    margin: 45px 0 0 0;
+}
+.seryoga_proces{
+    width: 373px;
+    height: 21px;
+    margin: 33px 0 0 0;
+    background: #EAEAEA;
+    border-radius: 6px;
+    position: relative;
+}
+.seryoga_proces::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    border-radius: 6px;
+    width: 275px;
+    height: 21px;
+    background: #00FF85;
+}
+.seryoga_text{
+    margin: 13px 0 0 0;
+    width: 373px;
+    height: 69px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.seryoga_text p{
+    font-family: 'Segoe';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    color: #7B7B7B;
+}
+.seryoga_text h1{
+    font-family: 'Segoe-b';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+.help{
+    min-height: 1219px;
+    margin: 156px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.help_header{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 67px;
+    /* identical to box height */
+    color: #00E34E;
+    margin: 0 auto;
+}
+.help_kids{
+    height: 1038px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 73px auto 0;
+    /* align-content: space-evenly; */
+    /* border: 1px solid #000; */
+}
+.help_kid{
+    /* position: absolute; */
+    width: 318px;
+    height: 371px;
+    background: #FFFFFF;
+    box-shadow: 0px 3.49451px 21.8407px 0.873626px rgba(0, 255, 87, 0.4);
+    border-radius: 18.3462px;
+    margin: 74px 0;
+    padding: 27px 25.34px;
+    transition: 1s;
+    overflow: hidden;
+}
+.help_kid img{
+    width: 267.33px;
+    height: 227.14px;
+    left: 25.34px;
+    top: 27.08px;
+    border-radius: 11.3571px;
+    /* margin: 27px 0 0 0; */
+}
+.help_kid p{
+    width: 268px;
+    height: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #7D7D7D;
+    margin: 20px 0 0 0;
+}
+.help_kid h1{
+    width: 267.33px;
+    height: 45.43px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18.3462px;
+    line-height: 22px;
+    color: #000000;
+    margin: 7.41px 0 0 0;
+}
+.help_text,
+.help_btn{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1s, opacity 0.5s linear;
+    transition-delay: visibility 1s, opacity 1s linear;
+}
+.help_kid:hover{
+    transform: translate(0, -74px);
+    height: 518px;
+    margin-bottom: -74px;
+}
+.help_kid:hover .help_btn,
+.help_kid:hover .help_text{
+    visibility: visible;
+    opacity: 1;
+}
+.help_text{
+    width: 268px;
+    height: 51.85px;
+    display: flex;
+    margin: 21px 0 0 0;
+}
+.help_btn p{
+    width: 268px;
+    height: 49px;
+    background: #00FF57;
+    border-radius: 13.1044px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24.4615px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.help_text_target{
+    width: 95px;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+}
+.help_text_target h1{
+    width: 95px;
+    height: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24.4615px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #000000;
+    margin: 0;
+}
+.help_text_collected h1{
+    margin: 0;
+    width: 111px;
+    height: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24.4615px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #666666;
+}
+.help_text_target p,
+.help_text_collected p{
+    width: 43.68px;
+    height: 15.73px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.1044px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #666666;
+    margin: 0;
+}
+.questions{
+    height: 854px;
+    border-radius: 28px;
+    background: #15D5FF;
+    margin-top: 31px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.questions h1{
+    width: 698px;
+    height: 57px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 57px;
+    text-transform: capitalize;
+    color: #000000;
+    margin: 57px 0 0 0;
+}
+.numPeople{
+    display: flex;
+    flex-direction: column;
+    width: 1041px;
+    height: 302px;
+    margin-top: 160px;
+    border: 1px solid #000;
+    align-items: center;
+    justify-content: space-between;
+}
+.numPeople h1{
+    width: 482px;
+    height: 57px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 57px;
+    text-transform: capitalize;
+    color: #000000;
+}
+.numPeople_text{
+    border: 1px solid #000;
+    width: 1041px;
+    height: 199px;
 }
